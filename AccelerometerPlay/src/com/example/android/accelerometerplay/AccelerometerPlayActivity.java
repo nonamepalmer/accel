@@ -58,7 +58,8 @@ public class AccelerometerPlayActivity extends Activity {
     private String test;
     private String comitter;
     private String newstring;
-
+    private String aftermerge;
+    
     /** Called when the activity is first created. */
     @Override
     public void onCreate(Bundle savedInstanceState) {
