@@ -55,6 +55,7 @@ public class AccelerometerPlayActivity extends Activity {
     private WindowManager mWindowManager;
     private Display mDisplay;
     private WakeLock mWakeLock;
+    private String test;
 
     /** Called when the activity is first created. */
     @Override
@@ -63,6 +64,7 @@ public class AccelerometerPlayActivity extends Activity {
 
         // Get an instance of the SensorManager
         mSensorManager = (SensorManager) getSystemService(SENSOR_SERVICE);
+        test="abc";
 
         // Get an instance of the PowerManager
         mPowerManager = (PowerManager) getSystemService(POWER_SERVICE);
