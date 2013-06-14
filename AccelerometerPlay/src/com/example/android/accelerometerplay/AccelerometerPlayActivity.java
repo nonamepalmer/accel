@@ -57,6 +57,7 @@ public class AccelerometerPlayActivity extends Activity {
     private WakeLock mWakeLock;
     private String test;
     private String comitter;
+    private String newstring;
 
     /** Called when the activity is first created. */
     @Override
