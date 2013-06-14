@@ -64,7 +64,7 @@ public class AccelerometerPlayActivity extends Activity {
 
         // Get an instance of the SensorManager
         mSensorManager = (SensorManager) getSystemService(SENSOR_SERVICE);
-        test="abc";
+        test="abc"+"ddd";
 
         // Get an instance of the PowerManager
         mPowerManager = (PowerManager) getSystemService(POWER_SERVICE);
